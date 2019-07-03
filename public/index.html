@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chat</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <div id ="chat">
+            <div id="chat-window" >
+                <img src="preloader.svg" alt="" id="loading-gif">
+                <div id = "output"></div>
+                
+            </div>
+            <div id="message-window">
+                    <div id = "feedback"></div>
+            <form onsubmit="return false" style="margin: 0">
+                <input id="handle" type="text" placeholder="Nick"/>
+                <input id="message" autocomplete="off" type="text" placeholder="Mesaj"/>
+                
+                <button id="send" type="submit"><i class="fa fa-arrow-circle-right"></i></button>
+            </form>
+            </div>
+        </div>
+        <script src="/chat.js"></script>
+    </body>
+</html>

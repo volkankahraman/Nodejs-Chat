@@ -1,0 +1,94 @@
+body {
+    font-family: 'Nunito';
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #4280df;
+}
+
+#chat {
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+}
+
+#chat-window {
+    height: 80%;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p {
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p {
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong {
+    color: #2183f3;
+}
+
+#message-window {
+    width: 99.9%;
+    position: fixed;
+    bottom: 0;
+}
+
+#message{
+    display: inline-block;
+    width: 85%;
+    border-bottom: #2479e2 solid 2px;
+    margin-bottom: 5px;
+}
+
+#send{
+    position: absolute;
+    right: 8px;
+    bottom: 1px;
+}
+
+label {
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button {
+    /* background: #1b70d1;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px; */
+    background: #1b70d1;
+    color: #fff;
+    font-size: 36px;
+    border: 0;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 0 0 2px 2px;
+}
